@@ -1,0 +1,27 @@
+<!-- <p>name : {{ name }}</p>
+<p>Tooth cleaning :{{ ToothCleaning }}</p>
+<p>root cannel :{{ rootCannel }}</p>
+<p>teeth-x ray :{{teethxRay}}</p>
+<p>price : {{price}}</p> -->
+<!-- for object  -->
+ <div class="ekart--product--container">
+ <!-- <img [src]="product.pImage">
+ <p>Name:{{product.name}}</p>
+ <p>price:{{'$'+ product.price}}</p>
+ <p>color:{{product.color}}</p>
+ <p>Discount price:{{getDiscountedPrice().toFixed (2)}}</p>
+<p>{{product.inStock > 0 ? 'Only' + product.inStock +' items left': 'Not in Stock'}}</p>
+
+<button (click)="incrementCutValue()">-</button>
+<span>{{ addToCart }}</span>
+<button (click)="decrementCutValue()">+</button> -->
+
+<!-- disabled,hidden,chacked this 3 html attributes the string interpolation syntax{{}} will not work -->
+ <!-- <input (input)="onNameChange($event)"><br>
+ <p>Name={{name}}</p> -->
+  <app-search></app-search>
+ <!-- <div *ngFor="let item of listOfString">
+  <p>Current element of array is:{{ item }}</p>
+ </div> -->
+<app-product-list></app-product-list>
+</div>
